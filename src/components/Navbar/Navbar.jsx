@@ -32,19 +32,19 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+        className="menu menu-sm font-semibold dropdown-content font-xl   bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
        {links} 
  
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl"> Gadget Heaven </a>
+    <a className="btn btn-ghost text-2xl font-bold"> Gadget Heaven </a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu font-semibold  font-xl menu-horizontal px-1">
      {links}
     </ul>
   </div>
-  <div className="navbar-end flex mr-10 gap-2 ">
+  <div className="navbar-end flex lg:mr-8 gap-2 ">
     <MdOutlineShoppingCart className="border bg-white text-2xl rounded-full"></MdOutlineShoppingCart>
     <FaRegHeart className="border bg-white text-2xl rounded-full" ></FaRegHeart>
   </div>
