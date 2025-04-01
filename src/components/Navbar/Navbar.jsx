@@ -45,8 +45,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end flex lg:mr-8 gap-2 ">
-    <MdOutlineShoppingCart className="border bg-white text-2xl rounded-full"></MdOutlineShoppingCart>
-    <FaRegHeart className="border bg-white text-2xl rounded-full" ></FaRegHeart>
+    <MdOutlineShoppingCart className="border  text-2xl rounded-full"></MdOutlineShoppingCart>
+    <FaRegHeart className="border  text-2xl rounded-full" ></FaRegHeart>
   </div>
 </div>
     );

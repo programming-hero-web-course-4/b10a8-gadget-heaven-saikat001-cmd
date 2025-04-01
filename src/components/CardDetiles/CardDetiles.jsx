@@ -23,17 +23,17 @@ console.log(FindData)
       src={product_image}
       className=" rounded-lg w-auto h-auto md:w-[424.31px] md:h-[503px] " />
     <div className="flex-3/4">
-      <h1 className="text-5xl font-bold ">{product_title}</h1>
-      <p className="my-3">price: ${price}</p>
-      <h1 className="bg-lime-100 px-3 py-2 rounded-xl w-24 my-2 border border-green-500 text-green-600">In Stock</h1>
-      <p>{description}</p>
-      <h1>Specification :</h1>
+      <h1 className="text-2xl  text-black font-bold ">{product_title}</h1>
+      <p className="my-3 text-black">price: ${price}</p>
+      <h1 className="bg-lime-100 px-3 py-2  rounded-xl w-24 my-2 border border-green-500 text-green-600">In Stock</h1>
+      <p className="text-black" >{description}</p>
+      <h1 className="text-black">Specification :</h1>
       {
         Specification.map((data,index)=><h1 key={index}>{index + 1}.{data}</h1>)
       }
 
 <div className="flex mt-5 items-center mb-2 gap-2">
-<h1 className="font-bold ">Rating</h1>
+<h1 className="font-bold text-black ">Rating</h1>
       <div className="rating">
   <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="1 star" />
 </div>
@@ -41,15 +41,15 @@ console.log(FindData)
 
 
 <div className="flex gap-4 mb-5">
-  <div className="rating">
-  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+  <div className="rating ">
+  <input type="radio" name="rating-2" className="mask mask-star-2  bg-orange-400" aria-label="1 star" />
   <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="2 star" defaultChecked />
   <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="3 star" />
   <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="4 star" />
   <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="5 star" />
 </div>
 
-<h1>{rating}</h1>
+<h1 className="text-black">{rating}</h1>
   </div>
 
 
